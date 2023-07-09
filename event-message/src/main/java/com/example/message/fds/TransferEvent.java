@@ -1,8 +1,8 @@
 package com.example.message.fds;
 
-import com.example.message.BankingEvent;
+import com.example.message.TransactionEvent;
 
-public class TransferEvent implements BankingEvent {
+public class TransferEvent implements TransactionEvent {
     @Override
     public void process() {
 
